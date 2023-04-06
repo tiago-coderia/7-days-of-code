@@ -23,6 +23,6 @@ Melhorar as habilidades de lógica de programação fazendo mini-projetos diári
 
 ## Autora
 
-| Foto                                                          | Nome           | GitHub                                          | Likedin                                                 | E-mail                  |
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------- | ------------------------------------------------------- | ----------------------- |
-| <img src="https://github.com/tiago-coding.png" width="100px"> | Jonathan Tiago | [Tiago-Coding](https://github.com/tiago-coding) | [Linkedin](https://www.linkedin.com/in/jonathantiiago/) | tiago.coderia@gmail.com |
+| Foto                                                           | Nome           | GitHub                                          | Likedin                                                 | E-mail                  |
+| -------------------------------------------------------------- | -------------- | ----------------------------------------------- | ------------------------------------------------------- | ----------------------- |
+| <img src="https://github.com/tiago-coderia.png" width="100px"> | Jonathan Tiago | [Tiago-Coding](https://github.com/tiago-coding) | [Linkedin](https://www.linkedin.com/in/jonathantiiago/) | tiago.coderia@gmail.com |
