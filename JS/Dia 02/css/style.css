@@ -1,7 +1,9 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 html {
   font-size: var(--resetRem);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +11,11 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 :root {
   --resetRem: 62.5%;
 }
+
 body {
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
@@ -20,15 +24,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 h1 {
   font-size: 3.2rem;
 }
+
 h2 {
   font-size: 2.4rem;
 }
+
 h3 {
   font-size: 2.08rem;
 }
+
 p {
   font-size: 1.4rem;
 }
@@ -40,7 +48,6 @@ p {
   align-items: center;
   justify-content: center;
   padding: 4rem;
-  -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
   background-color: white;
@@ -51,25 +58,27 @@ p {
   flex-direction: column;
   gap: 2rem;
 }
+
 input {
   width: 100%;
   height: 40px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgb(0, 0, 0);
   padding: 1rem;
 }
+
 button {
   width: 100%;
   height: 40px;
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgb(0, 0, 0);
   cursor: pointer;
   transition: 0.5s ease all;
   padding: 1rem;
-  &:hover {
-    background-color: black;
-    color: white;
-  }
+}
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 .response-box {
@@ -78,12 +87,11 @@ button {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
-  span,
-  p {
-    font-size: 24px;
-    text-align: center;
-  }
+}
+.response-box span,
+.response-box p {
+  font-size: 24px;
+  text-align: center;
 }
 
 #yes:checked::after,
@@ -103,4 +111,4 @@ button {
 
 #no:checked::after {
   content: "Ah, que pena... Já tentou aprender outras linguagens?";
-}
+}/*# sourceMappingURL=style.css.map */
