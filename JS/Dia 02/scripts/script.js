@@ -1,30 +1,66 @@
-function capturaDados() {
-  let name = document.querySelector(".name").value;
-  let age = document.querySelector(".age").value;
-  let skill = document.querySelector(".skill").value;
+let form = document.querySelector("form");
 
-  criarDiv(name, age, skill);
-}
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-function criarDiv(name, age, skill) {
-  let div = document.createElement("div");
-  div.className = "base-box response-box";
+  let getName = document.querySelector(".name").value;
+  let getAge = document.querySelector(".age").value;
+  let getProfession = document.querySelector(".profession").value;
+  console.log(getName, getAge, getProfession);
 
-  div.innerHTML = `
+  //   RESET
+  document.querySelector(".name").value = null;
+  document.querySelector(".age").value = null;
+  document.querySelector(".profession").value = null;
 
-  <p>Olá, ${name}, você tem ${age} anos e já está aprendendo ${skill}</p>
-  <p>Você gosta de estudar ${skill} ?</p>
-  <p style="display:flex">
-    <span>
-      <input type="radio" name="option" id="yes">
-      <label for="yes" class="opts yes">Sim</label>
-    </span>
-    <span>
-      <input type="radio" name="option" id="no">
-      <label for="no" class="opts no">Não</label>
-    </span>
-  </p>
-  
+  //   CALLING FUNCTION
+  createResponse(getName, getAge, getProfession);
+
+  let form = document.querySelector(".form");
+  form.style.display = "none";
+});
+
+function createResponse(getName, getAge, getProfession) {
+  // CREATING A DIV
+  let response = document.createElement("div");
+  response.className = "responses";
+
+  // DIV CONTENT
+  response.innerHTML = `
+  <p>Olá ${getName} tudo bem? <br> Pelo que vejo, você tem ${getAge} anos e trabalha como ${getProfession}!</p>
+  <br>
+  <p>Eae? Você curte o que faz?</p>
+  <br>
+  <input type="radio" name="option" id="yes" class="yes">
+  <label for="yes" class="opts yes">Sim</label>
+  <input type="radio" name="option" id="no" class="no">
+  <label for="no" class="opts no">Não</label>
+  <br>
+  <br>
+  <div class="positive-response"><p>Ah legal! Continue estudando! Você terá bons caminhos nessa profissão!</p></div>
+  <div class="negative-response"><p>Eita! Acho que já está mais que na hora de encontrar sua profissão certa né?!</p></div>
+
+  <br>
+  <br>
+
+  <a href="/" class="btn-send">Voltar</a>
   `;
-  document.body.appendChild(div);
+
+  document.querySelector(".response").appendChild(response);
+
+  // CONDITION SECOND RESPONSE
+
+  let positiveRes = document.querySelector(".positive-response");
+  let negatveRes = document.querySelector(".negative-response");
+  let yesInput = document.querySelector(".yes");
+  let noInput = document.querySelector(".no");
+
+  yesInput.addEventListener("click", () => {
+    positiveRes.style.display = "block";
+    negatveRes.style.display = "none";
+  });
+  noInput.addEventListener("click", () => {
+    positiveRes.style.display = "none";
+    negatveRes.style.display = "block";
+  });
 }

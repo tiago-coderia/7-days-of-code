@@ -5,29 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dia 002 - Trabalhando com Variáveis em Javascript;</title>
+    <title>002</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <div class="base-box">
-        <div class="form-inputs">
-            <div>
-                <p>Qual seu Nome?</p>
-                <input type="text" value="" class="name" requireds>
+    <div class="container">
+        <form class="form" action="">
+            <div class="form-config">
+                <div class="form-line">
+                    <label for="">Qual seu nome?</label>
+                    <input type="text" value="" class="name" required>
+                </div>
+                <div class="form-line">
+                    <label for="">Qual sua idade?</label>
+                    <input type="number" value="" class="age" min="0" max="100" required>
+                </div>
+                <div class="form-line">
+                    <label for="">Qual sua profissão?</label>
+                    <input type="text" value="" class="profession" required>
+                </div>
+                <div class="form-line">
+                    <button type="submit" class="btn-send">Enviar</button>
+                </div>
             </div>
-            <div>
-                <p>Qual sua Idade?</p>
-                <input type="number" value="" class="age" requireds>
-            </div>
-            <div>
-                <p>Qual linguagem de programação você está estudando?</p>
-                <input type="text" value="" class="skill" requireds>
-            </div>
-            <button class="submit" onclick="capturaDados()">Enviar</button>
+        </form>
+        <div class="response">
         </div>
     </div>
+
+
 
     <script src="scripts/script.js"></script>
 </body>
