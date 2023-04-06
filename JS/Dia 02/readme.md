@@ -6,4 +6,4 @@
 - HTML
 - SCSS
 
-![Mini Formulário](/media/apresentation.gif?raw=true)
+![Mini Formulário](media/apresentation.gif?raw=true)
