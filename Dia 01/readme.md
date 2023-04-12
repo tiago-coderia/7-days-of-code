@@ -1,24 +1,11 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=95b6f8&height=120&section=header"/>
+<img src="media/titles.png" height="141px width:600px">
+<br><br>
 
-![#000](https://placehold.co/600x15/000/000.png)
-
-<div style="background: black; padding: 1rem">
-<img src="media/title.png"> <br>
-<img src="media/step1.png">
-</div>
-
-<br>
 # Dia 01 - Trabalhando com operadores lógicos em Javascript
 
 ## Tecnologias Usadas
 
 - Javascript
-
-## Executar Javascript em seu VS Code
-
-- Instale o [Node.js](https://nodejs.org/en/);
-- Em seu VS Code, vá no menu Run > Add Configuration, "selecionar a opção Node.js (na command pallet) e salvar o arquivo (criado), sem necessidade de configurações adicionais". Isso irá criar um arquivo launch.json para o projeto (numa subpasta oculta ".vscode"), de uso exclusivo do VS Code, evitando que ele sempre pergunte qual o environment ou interpretador que você quer usar. Fonte: Duarte, Luiz. Programação Web com Node.js: Completo, do Front-end ao Back-end . LuizTools. Edição do Kindle - Amazon;
-- Para executar, teclar Ctrl + F5 ou F5. Para depurar passo-a-passo, teclar F10.
 
 ## Operadores Lógicos
 
