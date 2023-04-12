@@ -1,7 +1,7 @@
-<div style="background:black; padding:20px">
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=95b6f8&height=120&section=header"/>
 
-![Step By Step](/medias/title.png) <br>
-![Step By Step](/medias/step1.png)
+<img src="medias/title.png"> <br>
+<img src="medias/step1.png">
 
 <br>
 
