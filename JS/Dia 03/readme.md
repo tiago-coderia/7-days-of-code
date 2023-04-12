@@ -3,12 +3,9 @@
 
 <br>
 
-# Dia 02 - Trabalhando com variáveis em Javascript
+# Dia 03 - Trabalhando com Fluxo de Decisão em Javascript
 
 ## Tecnologias Usadas
 
 - Javascript
 - HTML
-- SCSS
-
-![Mini Formulário](media/apresentation.gif?raw=true)
