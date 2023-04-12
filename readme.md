@@ -24,6 +24,7 @@ Melhorar as habilidades de lógica de programação fazendo mini-projetos diári
 - [Dia 001 - Trabalhando com Operadores Lógicos em Javascript](https://github.com/tiago-coding/7-days-of-code/tree/master/Dia%2001)
 - [Dia 002 - Trabalhando com Variáveis em Javascript](https://github.com/tiago-coding/7-days-of-code/tree/master/Dia%2002)
 - [Dia 003 - Trabalhando com Fluxo de Decisão em Javascript](https://github.com/tiago-coding/7-days-of-code/tree/master/Dia%2003)
+- [Dia 004 - Trabalhando Loops e Randomização em Javascript](https://github.com/tiago-coding/7-days-of-code/tree/master/Dia%2004)
 
 ## Autora
 
