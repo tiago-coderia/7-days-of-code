@@ -1,5 +1,5 @@
 <img src="media/titles.png" height="141px width:600px">
-<br><br>
+<br>
 
 # Dia 01 - Trabalhando com operadores lógicos em Javascript
 
