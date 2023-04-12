@@ -1,7 +1,7 @@
 <div style="background:black; padding:20px">
 
-![Step By Step](media/title.png) <br>
-![Step By Step](media/step1.png)
+![Step By Step](/medias/title.png) <br>
+![Step By Step](/medias/step1.png)
 
 <br>
 
