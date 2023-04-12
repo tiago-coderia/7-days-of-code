@@ -1,5 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=95b6f8&height=120&section=header"/>
 
+![#000](https://placehold.co/600x15/000/000.png)
+
 <div style="background: black; padding: 1rem">
 <img src="media/title.png"> <br>
 <img src="media/step1.png">
